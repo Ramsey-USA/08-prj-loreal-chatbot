@@ -4,7 +4,13 @@ const userInput = document.getElementById("userInput");
 const chatWindow = document.getElementById("chatWindow");
 
 // Store the conversation history for context awareness
-const messages = [{ role: "system", content: "You are a helpful assistant." }];
+const messages = [
+  {
+    role: "system",
+    content:
+      "You are a helpful assistant for L’Oréal. Only answer questions about L’Oréal products and beauty routines. If a question is unrelated, politely reply: 'Sorry, I can only answer questions about L’Oréal products and routines.'",
+  },
+];
 
 // Set initial message
 chatWindow.textContent = "👋 Hello! How can I help you today?";
