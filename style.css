@@ -1,3 +1,16 @@
+/* —— color palette —— */
+
+:root {
+  --loreal-red: #ff003b;
+  --loreal-gold: #e3a535;
+  --loreal-black: #000000;
+  --loreal-white: #ffffff;
+}
+
+/* Example usage:
+   color: var(--loreal-red);
+   background: var(--loreal-gold);
+*/
 /* —— basic reset —— */
 * {
   box-sizing: border-box;
