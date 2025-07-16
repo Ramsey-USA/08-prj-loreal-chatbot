@@ -6,11 +6,43 @@
 }
 
 /* —— body + fonts —— */
+
 body {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Now Display W05 Reg", Arial, Helvetica, sans-serif;
   color: #333;
   display: flex;
   justify-content: center;
+}
+
+/* Use Helvetica Now Display W05 Lt for search bars (input) */
+.chat-form input {
+  font-family: "Helvetica Now Display W05 Lt", Arial, Helvetica, sans-serif;
+}
+
+/* Use Helvetica Now Display W05 Bd for strong text in body */
+strong,
+b {
+  font-family: "Helvetica Now Display W05 Bd", Arial, Helvetica, sans-serif;
+}
+
+/* Use Avant Garde Gothic for navigation bar/menus */
+.site-footer nav,
+.site-footer a {
+  font-family: "Avant Garde Gothic ITC W02 Med",
+    "Avant Garde Gothic ITC W02 Demi", "Avant Garde Gothic ITC W02 Book", Arial,
+    Helvetica, sans-serif;
+}
+
+/* Use Bauer Bodoni for headers */
+.site-title,
+.site-header {
+  font-family: "Bauer Bodoni W02 Bold", "Halesworth eText Bold", Arial,
+    Helvetica, sans-serif;
+}
+
+/* Use Halesworth eText Medium for subheaders or menu items if needed */
+.site-footer p {
+  font-family: "Halesworth eText Medium", Arial, Helvetica, sans-serif;
 }
 
 .page-wrapper {
@@ -19,9 +51,17 @@ body {
 }
 
 /* header */
+
 .site-header {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 40px;
+}
+
+.loreal-logo {
+  display: block;
+  margin: 0 auto 18px auto;
+  max-width: 180px;
+  height: auto;
 }
 
 .site-title {

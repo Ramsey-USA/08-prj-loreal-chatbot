@@ -1,3 +1,30 @@
+<!-- Add custom font-face CSS for Avant Garde Gothic and Bauer Bodoni -->
+<style>
+  @font-face {
+    font-family: "Avant Garde Gothic ITC W02 Med";
+    src: url("fonts/AvantGardeGothicITCW02-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Avant Garde Gothic ITC W02 Demi";
+    src: url("fonts/AvantGardeGothicITCW02-Demi.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Avant Garde Gothic ITC W02 Book";
+    src: url("fonts/AvantGardeGothicITCW02-Book.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Bauer Bodoni W02 Bold";
+    src: url("fonts/BauerBodoniW02-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+  }
+</style>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,12 +40,46 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <!-- Add custom font-face CSS for Helvetica Now Display and Halesworth eText -->
+    <style>
+      @font-face {
+        font-family: "Helvetica Now Display W05 Reg";
+        src: url("fonts/HelveticaNowDisplayW05-Regular.woff2") format("woff2");
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Helvetica Now Display W05 Lt";
+        src: url("fonts/HelveticaNowDisplayW05-Light.woff2") format("woff2");
+        font-weight: 300;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Helvetica Now Display W05 Bd";
+        src: url("fonts/HelveticaNowDisplayW05-Bold.woff2") format("woff2");
+        font-weight: bold;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Halesworth eText Bold";
+        src: url("fonts/Halesworth-eText-Bold.woff2") format("woff2");
+        font-weight: bold;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "Halesworth eText Medium";
+        src: url("fonts/Halesworth-eText-Medium.woff2") format("woff2");
+        font-weight: 500;
+        font-style: normal;
+      }
+    </style>
   </head>
 
   <body>
     <div class="page-wrapper">
       <!------- Header / Branding ------->
       <header class="site-header">
+        <img src="img/loreal-logo.png" alt="L'Oréal Logo" class="loreal-logo" />
         <h1 class="site-title">Smart Product Advisor</h1>
       </header>
 
